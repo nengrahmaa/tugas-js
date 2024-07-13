@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url(asset/earth\ \(1\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgb(53, 75, 95);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: -150px;
+    color: rgb(208, 203, 203);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    line-height: 1.2;
+}
+
+h1>span {
+    color: rgb(18, 30, 67);
+}
+
+.header .logo img {
+    width: 80px;
+    height: auto;
+    color: aliceblue;
+}
+
+.header .navbar a {
+    margin: 0 3rem;
+    color: rgb(143, 167, 187);
+    font-size: 15px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.header .navbar a:hover {
+    border-bottom: 3px solid gainsboro;
+    color: rgba(131, 129, 129, 0.519);
+}
+
+main {
+    flex: 1;
+    padding-top: 200px;
+    /* Sesuaikan dengan tinggi header */
+}
+
+.earthorbit-info {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin-left: 100px;
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.earthorbit-info h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 15px;
+}
+
+.start-but {
+    padding: 10px 20px;
+    background-color: #2b5580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 120px;
+}
+
+.sta-but {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #2b5580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 620px;
+    margin-top: 480px;
+    margin-bottom: 200px;
+}
+.st-but {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #2b5580;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 780px;
+    margin-top: 480px;
+}
+
+.part-2 {
+    display: flex;
+}
+
+.box {
+    width: 250px;
+    height: 300px;
+    background-color: #0d3854;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 5px;
+}
+
+.rapidscat-info {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    margin-left: 100px;
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.rapidscat-info h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 15px;
+}
+
+.img-rapid img {
+    float: right;
+    width: 600px;
+    height: auto;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+
+.part-4 {
+    display: flex;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.img-satellite img{
+    float: right;
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+
+}
+
+.satellite-info {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin-right: 100px;
+    color: white;
+    font-size: 1.1rem;
+    text-align: justify;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.satellite-info h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    text-align: left;
+    letter-spacing: 15px;
+}
+
+footer {
+    width: 100%;
+    padding: 50px 100px;
+    background-color: rgb(146, 169, 189);
+    margin-top: 20px;
+}
+
+footer .footer-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 50px;
+    margin-top: 20px;
+}
+
+footer .footer-container .sec h2 {
+    position: relative;
+    color: rgb(20, 56, 88);
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+footer .footer-container .sec {
+    color: rgb(18, 66, 107);
+}
+
+footer .footer-container .sosmed {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 20px;
+}
+
+footer .footer-container .sosmed li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(83, 117, 148);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+footer .footer-container .sosmed li a:hover {
+    background-color: rgb(193, 205, 215);
+    cursor: pointer;
+    
+}
+
+footer .footer-container .quicklink li a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: rgb(18, 66, 107);
+}
+footer .footer-container .quicklink li a:hover {
+    color: rgb(170, 196, 219);
+}
+
+footer .footer-container .contact .info-contact {
+    position: relative;
+}
+
+footer .footer-container .contact .info-contact li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 10px;
+}
+
+footer .footer-container .contact .info-contact li a {
+    text-decoration: none;
+    color: rgb(18, 66, 107);
+}
+footer .footer-container .contact .info-contact li a:hover {
+    color: rgb(51, 111, 163);
+}
+
+.copyright .foot-cont {
+    width: 100%;
+    background: rgb(53, 75, 95);
+    padding: 20px 100px;
+    text-align: center;
+    color: rgb(163, 176, 188);
+}
